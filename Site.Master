@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Gatepass.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    GatePass & Dispatch Label 
+                </h1>
+            </div>
+            </div>
+
+            <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            </div>
+
+        <div class="clear">
+        </div>
+
+    </div>
+    <div class="footer">
+        
+    </div>
+
+      </form>
+</body>
+</html>
+
+
+            <%--<div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>--%>
+           <%-- <div class="clear hideSkiplink">
+             <asp:Table ID="MenuTable" runat="server" Width="100%">
+    <asp:TableRow    ForeColor="White">
+
+    <asp:TableCell ID="TableCell1" runat="server" Width="70">
+    <asp:Label runat="server" ID="lblFromDate" Text="From Date" Width="70"/>
+    </asp:TableCell><asp:TableCell ID="TableCell2" runat="server" Width="70">
+     <asp:TextBox  runat="server" ID="txtFromDate" Width="100"/>
+     </asp:TableCell><asp:TableCell ID="TableCell3" runat="server" Width="70">
+    <asp:Label runat="server" ID="lblToDate" Text="To Date" Width="70"/>
+    </asp:TableCell><asp:TableCell ID="TableCell4" runat="server" Width="70">
+     <asp:TextBox  runat="server" ID="txtToDate" Width="100"/>
+     </asp:TableCell><asp:TableCell ID="TableCell8" runat="server" HorizontalAlign="Center">
+    <asp:Button runat="server" ID="btnSubmit" Text="Submit" Width="70"/>
+    </asp:TableCell><asp:TableCell ID="TableCell5" runat="server" Width="70">
+     <asp:Label runat="server" ID="search" Text="Search FS" Width="70"/>
+    </asp:TableCell><asp:TableCell ID="TableCell6" runat="server" Width="70">
+     <asp:TextBox  runat="server" ID="TxtSearch" Width="100"/>
+<asp:TableCell ID="TableCell9" runat="server" HorizontalAlign="Center">
+    <asp:Button runat="server" ID="Button1" Text="Clear All" Width="70"/>
+    </asp:TableCell>
+     </asp:TableCell><asp:TableCell ID="TableCell7" runat="server" HorizontalAlign="Right">
+    <asp:Button runat="server" ID="btnSettings" Text="Settings" Width="70" OnClick="ClearAll_Click"/>
+    </asp:TableCell></asp:TableRow></asp:Table>--%>
+    
+    
+    <%--  <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="About"/>
+                    </Items>
+
+                     <StaticItemTemplate>
+    <asp:Label ID="Label1" runat="server" Text='From Date' Width="50" Height="30" />
+    <asp:Label ID="Label2" runat="server" Text='From Date' Width="50" Height="30" />
+</StaticItemTemplate>--%><%--  <asp:Label ID="LblFromDate" runat="server" Text="From"></asp:Label>
+                <asp:Calendar ID="CalFromDate" runat="server"></asp:Calendar>
+                <asp:Label ID="LblToDate" runat="server" Text="To"></asp:Label>
+                <asp:Calendar ID="CalToDate" runat="server"></asp:Calendar>--%>
+           
+  

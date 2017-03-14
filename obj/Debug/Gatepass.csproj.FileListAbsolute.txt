@@ -1,0 +1,17 @@
+C:\Vinayaka_Gatepass\Gatepass\Gatepass\bin\Gatepass.dll
+C:\Vinayaka_Gatepass\Gatepass\Gatepass\bin\Gatepass.pdb
+C:\Vinayaka_Gatepass\Gatepass\Gatepass\obj\Debug\ResolveAssemblyReference.cache
+C:\Vinayaka_Gatepass\Gatepass\Gatepass\obj\Debug\Gatepass.dll
+C:\Vinayaka_Gatepass\Gatepass\Gatepass\obj\Debug\Gatepass.pdb
+E:\Gatepass\Gatepass\bin\Gatepass.dll.config
+E:\Gatepass\Gatepass\bin\Gatepass.dll
+E:\Gatepass\Gatepass\bin\Gatepass.pdb
+E:\Gatepass\Gatepass\obj\Debug\Gatepass.csprojResolveAssemblyReference.cache
+E:\Gatepass\Gatepass\obj\Debug\Gatepass.dll
+E:\Gatepass\Gatepass\obj\Debug\Gatepass.pdb
+C:\Users\vinayakarao.s\Desktop\Gatepass\Gatepass\bin\Gatepass.dll.config
+C:\Users\vinayakarao.s\Desktop\Gatepass\Gatepass\bin\Gatepass.dll
+C:\Users\vinayakarao.s\Desktop\Gatepass\Gatepass\bin\Gatepass.pdb
+C:\Users\vinayakarao.s\Desktop\Gatepass\Gatepass\obj\Debug\Gatepass.csprojResolveAssemblyReference.cache
+C:\Users\vinayakarao.s\Desktop\Gatepass\Gatepass\obj\Debug\Gatepass.dll
+C:\Users\vinayakarao.s\Desktop\Gatepass\Gatepass\obj\Debug\Gatepass.pdb
